@@ -1,0 +1,84 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+h2 i {
+  margin-right: 10px;
+  color: #34A853; /* green color for medical insurance theme */
+}
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: #f7f7f7; /* light gray background */
+    background-image: url('top-view-healthbackground.jpg');
+    background-position: center; /* center the background image */
+    background-size: cover; /* scale the background image to cover the entire element */
+  }
+  
+  .container {
+    width: 25%; /* reduced width to 25% */
+    margin: 40px auto; /* increased margin for better spacing */
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* increased shadow effect */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333; /* darker text color */
+    font-weight: bold;
+    margin-bottom: 20px; /* added margin for better spacing */
+  }
+  
+  label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #666; /* darker text color */
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    border: 1px solid #ccc; /* added border for better visual feedback */
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #34A853; /* green color for medical insurance theme */
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 15px 30px; /* increased padding for better button size */
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #2E865F; /* darker green color on hover */
+  }
+  
+  #result {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    color: #34A853; /* green color for medical insurance theme */
+    font-weight: bold;
+  }
+  
+  /* added styles for medical insurance theme */
+  .container {
+    background-image: linear-gradient(to bottom, #f7f7f7, #fff); /* subtle gradient effect */
+    background-size: 100% 200px; /* gradient size */
+    background-position: 0% 100%; /* gradient position */
+  }
+  
+  h2::before {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-image: url("https://image.flaticon.com/icons/svg/2211/2211334.svg"); /* medical icon */
+    background-size: 30px 30px;
+    margin: 0 auto 10px;
+  }
